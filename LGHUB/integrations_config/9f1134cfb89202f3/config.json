@@ -1,0 +1,884 @@
+{
+ "supportedApplicationIds": [
+  "420fd454-0c36-499d-bde4-146823b16147"
+ ],
+ "name": "APPLET_DISCORD_NAME",
+ "author": "APPLET_AUTHOR_LOGITECH",
+ "description": "APPLET_DISCORD_DESCRIPTION",
+ "guid": "9f1134cfb89202f3",
+ "enabled": true,
+ "isOfficial": false,
+ "isGame": false,
+ "launchType": "MANUAL",
+ "individualApplicationPreferences": {
+  "420fd454-0c36-499d-bde4-146823b16147": {
+   "enabled": true
+  }
+ },
+ "actionSdk": {
+  "enabled": true,
+  "instantiatedOnce": false,
+  "actions": [
+   {
+    "name": "APPLET_DISCORD_VOICE_MUTE",
+    "actionId": "discord_voice_mute",
+    "actionIcon": "",
+    "parameters": []
+   },
+   {
+    "name": "APPLET_DISCORD_VOICE_DEAFEN",
+    "actionId": "discord_voice_deafen",
+    "actionIcon": "",
+    "parameters": []
+   },
+   {
+    "name": "APPLET_DISCORD_VOICE_JOIN",
+    "actionId": "discord_voice_join",
+    "actionIcon": "",
+    "parameters": [
+     {
+      "parameterId": "server_selection",
+      "errorMessage": "APPLET_DISCORD_SERVER_INVALID",
+      "assignmentMessage": "APPLET_DISCORD_SERVER_SELECTION",
+      "parameterType": "LIST",
+      "listSelection": [
+       {
+        "displayName": "czMarv",
+        "value": "229028558335508490",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "de_esea",
+            "value": "1171185138395254845",
+            "parameters": []
+           },
+           {
+            "displayName": "free",
+            "value": "1166818461389946910",
+            "parameters": []
+           },
+           {
+            "displayName": "de_fplinc",
+            "value": "1166823566541598750",
+            "parameters": []
+           },
+           {
+            "displayName": "de_1kelo",
+            "value": "1174027788358004787",
+            "parameters": []
+           },
+           {
+            "displayName": "sub",
+            "value": "1166822469563330682",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "RTHWLDN's Club",
+        "value": "270524579133390848",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "User Count: 6433",
+            "value": "638299941340577803",
+            "parameters": []
+           },
+           {
+            "displayName": "Sub-Only Voice 02",
+            "value": "977977694396510248",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice 01",
+            "value": "977977474283630592",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice 03",
+            "value": "977977544127184896",
+            "parameters": []
+           },
+           {
+            "displayName": "Sub-Only Voice 01",
+            "value": "977977660208742410",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice 05",
+            "value": "977977593787723806",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice 04",
+            "value": "977977568655442001",
+            "parameters": []
+           },
+           {
+            "displayName": "AFK",
+            "value": "1064195734049652767",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice 02",
+            "value": "977977518294466631",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Memeology",
+        "value": "270613445177638922",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "☕ Talk | #3",
+            "value": "547138317272219658",
+            "parameters": []
+           },
+           {
+            "displayName": "lol",
+            "value": "930636898546909265",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #4",
+            "value": "1086104183511466115",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #5",
+            "value": "751528674657828875",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #9",
+            "value": "751528807927775252",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #8",
+            "value": "751528845814792192",
+            "parameters": []
+           },
+           {
+            "displayName": "Special Talk",
+            "value": "771519811687677952",
+            "parameters": []
+           },
+           {
+            "displayName": "AFK",
+            "value": "729101565033447464",
+            "parameters": []
+           },
+           {
+            "displayName": "🎵 Music only",
+            "value": "465970721118748692",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #1",
+            "value": "930639171784146964",
+            "parameters": []
+           },
+           {
+            "displayName": "1 on 1",
+            "value": "548939076766531596",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #6",
+            "value": "751528720870801509",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk  | #2",
+            "value": "804850140321677352",
+            "parameters": []
+           },
+           {
+            "displayName": "24/7 songs",
+            "value": "629045874005377044",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #7",
+            "value": "751528747689050162",
+            "parameters": []
+           },
+           {
+            "displayName": "☕ Talk | #10",
+            "value": "751528872402485269",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "ŽaludArmy",
+        "value": "310481896624619520",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "🔇┃ČEKÁRNA",
+            "value": "413382844891529246",
+            "parameters": []
+           },
+           {
+            "displayName": "Bot Count: 5",
+            "value": "913120450899484803",
+            "parameters": []
+           },
+           {
+            "displayName": "Role Count: 51",
+            "value": "913120451209863230",
+            "parameters": []
+           },
+           {
+            "displayName": "User Count: 11477",
+            "value": "796794434082570260",
+            "parameters": []
+           },
+           {
+            "displayName": "🔊┃Free",
+            "value": "698211282968641636",
+            "parameters": []
+           },
+           {
+            "displayName": "Channel Count: 85",
+            "value": "796794433466531901",
+            "parameters": []
+           },
+           {
+            "displayName": "Member Count: 11482",
+            "value": "796788081214226443",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "FIT ČVUT",
+        "value": "366970031445377024",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "~~~ Karanténa ~~~",
+            "value": "366971933801185282",
+            "parameters": []
+           },
+           {
+            "displayName": "Public 🌍",
+            "value": "811617030146359296",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Svelte",
+        "value": "457912077277855764",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "events-broadcast",
+            "value": "1020371841828802611",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Nextronn.eu",
+        "value": "587040386191458304",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "🍂│Venus's Office",
+            "value": "770682153817866242",
+            "parameters": []
+           },
+           {
+            "displayName": "💤│AFK",
+            "value": "770332168832155719",
+            "parameters": []
+           },
+           {
+            "displayName": "🔵│General",
+            "value": "770332659032522812",
+            "parameters": []
+           },
+           {
+            "displayName": "🔐│Admin Office",
+            "value": "770333115117338674",
+            "parameters": []
+           },
+           {
+            "displayName": "💤│Waiting room",
+            "value": "770331970910683139",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Discord Developers",
+        "value": "613425648685547541",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "activities[1]",
+            "value": "1108886818683879486",
+            "parameters": []
+           },
+           {
+            "displayName": "activities[0]",
+            "value": "1108200663378313357",
+            "parameters": []
+           },
+           {
+            "displayName": "code && chat",
+            "value": "1130590990546247770",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "VŠPJ",
+        "value": "631220686756642827",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "doučování",
+            "value": "648042551932354561",
+            "parameters": []
+           },
+           {
+            "displayName": "afk",
+            "value": "642836964671881256",
+            "parameters": []
+           },
+           {
+            "displayName": "Silicon Sky",
+            "value": "642844774608404497",
+            "parameters": []
+           },
+           {
+            "displayName": "Hell",
+            "value": "642844728865587247",
+            "parameters": []
+           },
+           {
+            "displayName": "pjp",
+            "value": "854467684418715718",
+            "parameters": []
+           },
+           {
+            "displayName": "General channel",
+            "value": "631220686756642831",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "𝗦𝗪𝝠𝗧𝗖𝗛",
+        "value": "660915053532545044",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "🔊 ∙ Talk#2",
+            "value": "660915053985267760",
+            "parameters": []
+           },
+           {
+            "displayName": "🔊 ∙ Talk#3",
+            "value": "660915254687170570",
+            "parameters": []
+           },
+           {
+            "displayName": "🔊 ∙ Talk#1",
+            "value": "660937133153976360",
+            "parameters": []
+           },
+           {
+            "displayName": "🔊 ∙ Talk#4",
+            "value": "660945355877384203",
+            "parameters": []
+           },
+           {
+            "displayName": "🔇•AFK",
+            "value": "661149991045431296",
+            "parameters": []
+           },
+           {
+            "displayName": "🪓•WarRoom",
+            "value": "734383902529159279",
+            "parameters": []
+           },
+           {
+            "displayName": "🪓•WarRoomSecret",
+            "value": "740305940947009751",
+            "parameters": []
+           },
+           {
+            "displayName": "Developers🌌",
+            "value": "982402407847833660",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Nette Framework",
+        "value": "772215522456371210",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "Voice #01",
+            "value": "772215522456371214",
+            "parameters": []
+           },
+           {
+            "displayName": "Voice #02",
+            "value": "772290595276324915",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Planet Roonie",
+        "value": "786614176461357076",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "10389 Inhabitants",
+            "value": "1095597549970276394",
+            "parameters": []
+           },
+           {
+            "displayName": "streaming",
+            "value": "980077864542158868",
+            "parameters": []
+           },
+           {
+            "displayName": "music",
+            "value": "786957485717323796",
+            "parameters": []
+           },
+           {
+            "displayName": "private",
+            "value": "1095665576048869517",
+            "parameters": []
+           },
+           {
+            "displayName": "public",
+            "value": "978238161052401704",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Astro Lounge",
+        "value": "830184174198718474",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "chat",
+            "value": "1009102461904109688",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "%APPDATA%",
+        "value": "830959817760964619",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "〖💬〗Monke flip",
+            "value": "831047602052661268",
+            "parameters": []
+           },
+           {
+            "displayName": "〖💬〗Monke flip úkoly",
+            "value": "831047603365740605",
+            "parameters": []
+           },
+           {
+            "displayName": "〖😴〗AFK",
+            "value": "831047605324218388",
+            "parameters": []
+           },
+           {
+            "displayName": "〖🎶〗Music",
+            "value": "831047607009673307",
+            "parameters": []
+           },
+           {
+            "displayName": "〖💬〗Čekání na move",
+            "value": "996109806328877176",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Aplikovaná Informatika",
+        "value": "897110117374361711",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "Meeting Room 2",
+            "value": "897110117810597915",
+            "parameters": []
+           },
+           {
+            "displayName": "No_cheating_here",
+            "value": "905163786367934525",
+            "parameters": []
+           },
+           {
+            "displayName": "Meeting Room 1",
+            "value": "897110117810597914",
+            "parameters": []
+           },
+           {
+            "displayName": "Lounge",
+            "value": "897110117810597913",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Love My Life",
+        "value": "939297419844255776",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "ᖴᖇIEᑎᗪᒪY ᖴIᖇE",
+        "value": "1014198315610558484",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "PIKLIRNA",
+            "value": "1067185711813501058",
+            "parameters": []
+           },
+           {
+            "displayName": "CHILLANDO",
+            "value": "1067189093219434626",
+            "parameters": []
+           },
+           {
+            "displayName": "PABLO",
+            "value": "1067189258512781442",
+            "parameters": []
+           },
+           {
+            "displayName": "stream",
+            "value": "1067782716961067108",
+            "parameters": []
+           },
+           {
+            "displayName": "Member Count: 130",
+            "value": "1116778325831057489",
+            "parameters": []
+           },
+           {
+            "displayName": "samp",
+            "value": "1250904690091098143",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "SDF VŠPJ",
+        "value": "1024730761410138132",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "Learning",
+            "value": "1028279671026090054",
+            "parameters": []
+           },
+           {
+            "displayName": "🔴︱General 一",
+            "value": "1024730764279025810",
+            "parameters": []
+           },
+           {
+            "displayName": "🔇︱AFK",
+            "value": "1024730764279025813",
+            "parameters": []
+           },
+           {
+            "displayName": "Learning-without-mic",
+            "value": "1028279082154213376",
+            "parameters": []
+           },
+           {
+            "displayName": "🟢︱General 二",
+            "value": "1024730764279025811",
+            "parameters": []
+           },
+           {
+            "displayName": "🔵︱General 三",
+            "value": "1024730764279025812",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "Badge",
+        "value": "1042487730845782117",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "4/20 Stamina[70",
+            "value": "1042487731613335736",
+            "parameters": []
+           },
+           {
+            "displayName": "5/20 MD[76",
+            "value": "1046900818697277614",
+            "parameters": []
+           },
+           {
+            "displayName": "4/20 health[71",
+            "value": "1046901000407105548",
+            "parameters": []
+           },
+           {
+            "displayName": "5/20 weight[75",
+            "value": "1046901216262758431",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "./\"NO HUGS\"",
+        "value": "1075379111108821003",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "1",
+            "value": "1075379112845250563",
+            "parameters": []
+           },
+           {
+            "displayName": "AFK",
+            "value": "1075379447026421791",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       },
+       {
+        "displayName": "TheHiveMind",
+        "value": "1235399448780341289",
+        "parameters": [
+         {
+          "parameterId": "channel_selection",
+          "errorMessage": "APPLET_DISCORD_CHANNEL_INVALID",
+          "assignmentMessage": "APPLET_DISCORD_CHANNEL_SELECTION",
+          "parameterType": "LIST",
+          "listSelection": [
+           {
+            "displayName": "Study Room 0 📓",
+            "value": "1235399449237524528",
+            "parameters": []
+           },
+           {
+            "displayName": "Study Room 1 📔",
+            "value": "1237875583887605760",
+            "parameters": []
+           },
+           {
+            "displayName": "Study Room 2 📘",
+            "value": "1237875653567844513",
+            "parameters": []
+           },
+           {
+            "displayName": "Study Room 3 📕",
+            "value": "1237875725613142187",
+            "parameters": []
+           }
+          ],
+          "parameters": []
+         }
+        ]
+       }
+      ],
+      "parameters": []
+     }
+    ]
+   },
+   {
+    "name": "APPLET_DISCORD_VOICE_LEAVE",
+    "actionId": "discord_voice_leave",
+    "actionIcon": "",
+    "parameters": []
+   }
+  ]
+ },
+ "hasInstallation": false,
+ "installationMessage": "",
+ "downloadMessage": "APPLET_DISCORD_DOWNLOAD_MESSAGE",
+ "downloadUrl": "",
+ "pluginPath": "",
+ "icon": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABvFBMVEUAAACrzf+nwPOMoe5qf8pEU49kd8NJWJKHmNNxhsxsgcpec8OEldJWbcGNndaJmtVzh81ug8tddcWElMttgcNid8Bgdb9UaruPntSJmdGClNB7js16jdBid8VbcsSQoNd9jsh4isZ0hsVbcb1Ybr1ccLx1icsMDx9bb8BXbL91ic5gd8dhd8VRZ7VQZK9xhclmesGOndBMWpR8iLZ1gKsAAAAAAABZccNccLuSodVtgchIXKhRaLlJXadgdsNYaahwhMZpfMJWZqFGVpU8TI42P2r09fXz9PT9/Pj5+PaJmtX39/Z+kNFug8t6jc/+/vn19vaDldNofspjd8Rld8L///r8+/jy8vSLnNaGl9SAk9JsgcvV2OpwhcxjeMZcdMbq6/F3i890iM5qgMpnfclieMdYcMVvfsRoecPb3uyvud+utduPn9ecp9Zyh81fd8dhd8Vjc7/5+ffo6fDR1unN0ebIzua6wd+Sothqe8Ts7fPu7/Ll5/HBx+O8xOPEyOK1vd+jrNh8j9GQm9Bwg8thdcRfcL9dbr5aarz7+fff4e3Hy+O+w+Cos92VntFofcdodr9hbrt7h8Z3g8XbmwMtAAAARnRSTlMAAgID/HX8df38/P79/fz8/Pz8tbS0tLSwsLCv/Pz8+rW1tbS0tK8R/v78/PnAuK+rd3MOCwkE+ODIx7Swq6KVdnZfXFBFIRRAVgAAAmlJREFUOMuNzfdT2mAcx/GoqWUpYCeto9O9R/ceSR6SEAImERI2iICAbHBvcWv7D/cJNoHr9Tzfv+Qun9d9H+Rmtfw35OZNTTyEWSyWR7DHsN7e3rGxL1PKPv22vLg4N2d1uVi3m7LZAoFgykPrQu+mr95HJso9Pe3tRqPGYHBTVGdnYNCk1Zp1qOMrHBGkCbGUe+QDtQsUvGCrXRBRx/hfcGexXd5ZimWpbbgHRU9wVwb3kGYFwN1djic0lIsNaOKnVJimQw1gzgjvr0vHG9Lqsn9V2ijE4rTYCKxGK7UGVnGCyAIS8PzKEbMZEdGwAp5YNax1GQASw+wYhuE4SZL+qAMN31eAS7N9SmB2ea0BDBOYZH8DYA22PAQkx8DdzjAQ8cWDVhU8Zd2uZWAnsdIaCR8pnZAYDt/Qe1Xg7kxm7RiRuLws8XyiWt0kBBwY+p0vVWCKMzjO71xkkgS/k9k/YwSBSA54FfCMMq0zOHZYiP6OgWw+GpUALjDxtjrY1hZ5TCC5nB8IAsj5OXIFJ9bbIs8VYDMXOTx3kgccAeOAtCmtcKU6uBswUTEuG0ucba0VChtbO8lj/2H+vCOtguAgvZs4sscq1YP9/YOB2WJO2tL7hnwvVKBNebwXv6KZygKsslfZ1bellzrqIKX1eFJ0JrMwK+f07ukj3rSvDsY9ZpoWaVHenXLe4TeRDl/3/IMaaEG+iWadToeiaKtcV1fXcGRyNN19BeRefT4PhUIOhyPsdO4twYbSn2ZGfK8VAMXPydu1bil9R/pG51UAPw0pv/o+zn9Ql+amf5KHmfcjEFxX349rRvXlPxgPv+iharHSAAAAAElFTkSuQmCC",
+ "poster": ""
+}
